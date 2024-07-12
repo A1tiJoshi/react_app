@@ -1,0 +1,77 @@
+/* src/styles/styles.css */
+
+.container {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logout-button {
+  
+  background-color: #c82333;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.results-container {
+  display: 20px;
+}
+
+.referrals,
+.services {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.index-page {
+padding: 20px;
+}
+
+.login-icon {
+cursor: pointer;
+}
+
+.result-item {
+cursor: pointer;
+padding: 10px;
+border: 1px solid #ccc;
+margin-bottom: 10px;
+}
+
+.result-item:hover {
+background-color: #f0f0f0;
+}
+
+.company-details {
+padding: 20px;
+border: 1px solid #ccc;
+}
+
